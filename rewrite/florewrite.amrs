@@ -1,0 +1,6 @@
+# 自定义去广告 for Anywhere MITM RuleSet
+
+name = 自定义去广告
+hostname = api.ys7.com
+
+0, 0, ^https://api.ys7.com/api/ads/v2, 2, {}
